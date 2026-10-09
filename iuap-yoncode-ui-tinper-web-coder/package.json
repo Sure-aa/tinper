@@ -1,0 +1,17 @@
+{
+  "name": "iuap-yoncode-ui-tinper-web-coder",
+  "version": "15.12.5",
+  "title": "YonCodeTinperWeb开发",
+  "type": "module",
+  "description": "使用 Tinper、Tinper-Pro 实现 Web 页面和公共支撑服务接入。",
+  "tenantId": 0,
+  "keywords": [
+    "TinperNext",
+    "TinperNextPro",
+    "YonDesign",
+    "Web 页面",
+    "公共支撑服务"
+  ],
+  "license": "ISC",
+  "ytenantid": "0"
+}

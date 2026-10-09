@@ -1,0 +1,4 @@
+interface:
+  display_name: "YonCode Tinper Web Coder"
+  short_description: "使用 Tinper 与 Tinper-Pro 实现 Web 页面和公共支撑服务"
+  default_prompt: "使用 $iuap-yoncode-ui-tinper-web-coder 在既有 Web 工程中实现 Tinper 页面、组件集成和公共支撑服务。"

@@ -1,0 +1,1529 @@
+:root {
+  --brand-100: #ffcfd3;
+  --brand-200: #ff959d;
+  --brand-300: #ff5b68;
+  --brand-400: #ff2132;
+  --brand-500: #e60012;
+  --brand-600: #c2000f;
+  --brand-700: #9e000c;
+  --brand-800: #7b000a;
+  --brand-900: #570007;
+  --brand-50: #ffecee;
+  --success: #10b981;
+  --success-light: #f0fdf4;
+  --warning: #f59e0b;
+  --warning-light: #fffbeb;
+  --danger: #ff3b30;
+  --danger-light: #fff1f2;
+  --info: #3b82f6;
+  --info-light: #eff6ff;
+  --grey-900: #111827;
+  --grey-800: #1f2937;
+  --grey-700: #374151;
+  --grey-600: #4b5563;
+  --grey-500: #6b7280;
+  --grey-400: #9ca3af;
+  --grey-300: #d1d5db;
+  --grey-200: #e5e7eb;
+  --grey-100: #f3f4f6;
+  --grey-50: #f9fafb;
+  --dark: #000000;
+  --light: #ffffff;
+  --tran: transparent;
+  --link-700: #1d4ed8;
+  --link-500: #3b82f6;
+  --reqire: #fefce8;
+  --select: #dbeafe;
+  --highlight: #fff7ed;
+  --highlight-hover: #ffedd5;
+  --select-hover: #d1d5db;
+  --link-400: #60a5fa;
+  --finished: #dcfce7;
+  --finished-hover: #86efac;
+  --bg-searchform: #f8fafc;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 26px;
+  --text-4xl: 40px;
+  --space-0: 0;
+  --space-1px: 1px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-2-0: 2px 0;
+  --space-4-8: 4px 8px;
+  --font-hariline: 100;
+  --font-thin: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+  --opcity-0: 0;
+  --opcity-35: 0.35;
+  --opcity-50: 0.5;
+  --opcity-75: 0.75;
+  --opcity-100: 1;
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-default: 7px;
+  --radius-md: 15px;
+  --radius-lg: 30px;
+  --radius-full: 999px;
+  --radius-s: 2px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --border-0: 0;
+  --border-2: 2px;
+  --border-4: 4px;
+  --border-8: 8px;
+  --border-1: 1px;
+  --ease-linearmin-w-0: 0;
+  --min-w-full: 100%;
+  --input-minwidth: 76px;
+  --tablecol-minwidth: 56px;
+  --max-w-none: none;
+  --max-w-xs: 320px;
+  --max-w-sm: 384px;
+  --max-w-md: 448px;
+  --max-w-lg: 512px;
+  --max-w-xl: 576px;
+  --max-w-2xl: 672px;
+  --max-w-3xl: 768px;
+  --max-w-4xl: 896px;
+  --max-w-5xl: 1024px;
+  --max-w-6xl: 1152px;
+  --max-w-full: 100%;
+  --max-w-screen-sm: 640px;
+  --max-w-screen-md: 768px;
+  --max-w-screen-lg: 1024px;
+  --max-w-screen-xl: 1280px;
+  --w-0: 0;
+  --w-1: 4px;
+  --w-2: 8px;
+  --w-3: 12px;
+  --w-4: 16px;
+  --w-5: 20px;
+  --w-6: 24px;
+  --w-8: 32px;
+  --w-10: 40px;
+  --w-12: 48px;
+  --w-16: 64px;
+  --w-20: 80px;
+  --w-24: 96px;
+  --w-32: 128px;
+  --w-40: 160px;
+  --w-48: 192px;
+  --w-56: 224px;
+  --w-64: 256px;
+  --w-auto: auto;
+  --w-px: 1px;
+  --w-screen: 100vw;
+  --w-full: 100%;
+  --w-tb150: 150px;
+  --min-h-0: 0;
+  --min-h-full: 100%;
+  --max-h-full: 100%;
+  --max-h-screen: 100vh;
+  --h-0: 0;
+  --h-1: 4px;
+  --h-2: 8px;
+  --h-3: 12px;
+  --h-4: 16px;
+  --h-5: 20px;
+  --h-6: 24px;
+  --h-8: 32px;
+  --h-10: 40px;
+  --h-12: 48px;
+  --h-16: 64px;
+  --h-auto: auto;
+  --h-px: 1px;
+  --h-full: 100%;
+  --h-screen: 100vh;
+  --h-t35: 35px;
+  --h-t30: 30px;
+  --h-t28: 28px;
+  --h-t22: 22px;
+  --h-t26: 26px;
+  --border-solid: solid;
+  --boder-dashed: dashed;
+  --boder-double: double;
+  --border-dotted: dotted;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-default: 0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --shadow-none: 0 0 #0000;
+  --bg-search-workbench: #ffffff2e !important;
+  --tab-workbench-selected: #eb52300a;
+  --border-tabbottom-workbench-selected: #eb523033;
+  --border-top-table: #50576680;
+  --lh-0: 0;
+  --lh-1: 4px;
+  --lh-2: 8px;
+  --lh-3: 12px;
+  --lh-4: 16px;
+  --lh-5: 20px;
+  --lh-6: 24px;
+  --lh-auto: auto;
+  --lh-px: 1px;
+  --lh-t35: 35px;
+  --lh-t30: 30px;
+  --lh-t28: 28px;
+  --letter-spacing-0: 0;
+  --letter-spacing-1: 1px;
+  --gradient-brand: linear-gradient(90deg, #858a94 0%, #b9bcc2 100%);
+  --h-t29: 29px;
+  --w-t14: 14px;
+  --h-t14: 14px;
+  --h-t41: 41px;
+  --fmlight: arial, sans-serif;
+  --fm: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', system-ui,
+    'PingFang SC', 'Segoe UI', 'Noto Sans CJK SC', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji', sans-serif;
+  --systemui: system-ui, arial, sans-serif;
+  --border-start: #bae6fd;
+  --bg-start: #f0f9ff;
+  --text-start: #0ea5e9;
+  --border-danger: #fee2e2;
+  --bg-invalid: #f3f4f6;
+  --text-invalid: #4b5563;
+  --border-invalid: #e5e7eb;
+  --border-success: #d1fae5;
+  --border-warning: #fef3c7;
+  --border-info: #dbeafe;
+  --bg-line-progress: #e5e7eb73;
+  --border-6: 6px;
+  --border-10: 10px;
+  --shadow-basic: 0 0px 4px 0 rgb(0 0 0 / 0.1), 0 1px 6px 0 rgb(0 0 0 / 0.1);
+  --ynfw-color-border-fill-radio: var(--ynfw-color-border-input);
+  --ynfw-color-border-fill-checkbox: var(--ynfw-color-border-input);
+  --ynfw-color-text-breadcrumb-hover: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-border-button-radio: var(--ynfw-color-border-input);
+  --ynfw-color-bg-scroll-scrollbar-hover: var(--grey-400);
+  --ynfw-color-bg-scroll-scrollbar: var(--grey-300);
+  --ynfw-color-bg-scrollbar: var(--grey-100);
+  --ynfw-color-icon-default-steps-waited: var(--ynfw-color-icon-nav-waited);
+  --ynfw-color-border-item-timeline-waited: var(--ynfw-color-icon-nav-waited);
+  --ynfw-color-icon-nav-waited: var(--ynfw-color-border-global);
+  --ynfw-color-bg-searchform: var(--bg-searchform);
+  --ynfw-color-border-item-multiple-select: var(--grey-300);
+  --ynfw-color-bg-icon-title-card-collapse: var(--grey-400);
+  --ynfw-color-bg-line-progress: var(--bg-line-progress);
+  --ynfw-color-bg-input-danger: var(--danger-light);
+  --ynfw-color-bg-item-multiple-select: var(--bg-searchform);
+  --ynfw-color-bg-form: var(--tran);
+  --ynfw-color-border-value-form: var(--ynfw-color-border-input-disabled);
+  --ynfw-color-bg-primary-level-0: var(--brand-50);
+  --ynfw-color-bg-primary-level-1: var(--brand-100);
+  --ynfw-color-text-btn-default: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-text-tabs: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-icon-cascader: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-divider-cascader: var(--ynfw-color-border-global);
+  --ynfw-color-icon-cascader-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-cascader-pressed: var(--ynfw-color-icon-global-pressed);
+  --ynfw-color-border-divider-cascader: var(--ynfw-color-border-global);
+  --ynfw-color-bg-trapezoid-tabs: var(--ynfw-color-info-light);
+  --ynfw-color-text-trapezoid-tabs-selected: var(
+    --ynfw-color-text-tabs-selected
+  );
+  --ynfw-color-text-trapezoid-tabs-hover: var(--ynfw-color-text-tabs);
+  --ynfw-color-bg-item-trapezoid-tabs: var(--ynfw-color-info-light);
+  --ynfw-color-bg-fill-line-tabs-hover: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-text-fill-line-tabs-selected: var(
+    --ynfw-color-text-tabs-selected
+  );
+  --ynfw-color-bg-trapezoid-tabs-hover: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-bg-fill-line-tabs: var(--ynfw-color-info-light);
+  --ynfw-color-bg-fill-line-tabs-selected: var(--ynfw-color-bg-global-default);
+  --ynfw-color-text-fill-line-tabs-hover: var(--ynfw-color-text-tabs);
+  --ynfw-color-bg-trapezoid-tabs-selected: var(--ynfw-color-bg-global-default);
+  --ynfw-color-text-fill-line-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-border-input: var(--ynfw-color-border-bold);
+  --ynfw-color-bg-switch-disabled: var(--grey-200);
+  --ynfw-color-bg-button-radio-disabled: var(--grey-100);
+  --ynfw-color-icon-message-success: var(--ynfw-color-success);
+  --ynfw-color-bg-input-readonly: var(--info-light);
+  --ynfw-color-bg-table-click: var(--ynfw-color-info-light);
+  --ynfw-color-icon-message-info: var(--ynfw-color-info);
+  --ynfw-color-border-table-click: var(--ynfw-color-info);
+  --ynfw-color-border-input-required: var(--ynfw-color-warning);
+  --ynfw-color-icon-message-danger: var(--ynfw-color-danger);
+  --ynfw-color-bg-list2-collapse: var(--ynfw-color-bg-global-default);
+  --ynfw-color-icon-message-warning: var(--ynfw-color-warning);
+  --ynfw-color-bg-card2-collapse: var(--info-light);
+  --ynfw-color-border-list2-collapse: var(--ynfw-color-primary);
+  --ynfw-color-text-message: var(--ynfw-color-text-primary-global);
+  --ynfw-color-bg-global-hover: var(--grey-200);
+  --ynfw-color-border-button-radio-disabled: var(
+    --ynfw-color-border-button-radio
+  );
+  --ynfw-color-bg-striped-table: var(--grey-100);
+  --ynfw-color-text-textbtn-hover: var(--ynfw-color-link-hover);
+  --ynfw-color-text-textbtn-default: var(--ynfw-color-link);
+  --ynfw-color-bg-button-radio-selected-disabled: var(
+    --ynfw-color-border-button-radio
+  );
+  --ynfw-color-icon-collapse-tree-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-collapse-tree: var(--ynfw-color-icon-secondary);
+  --ynfw-color-bg-row-table-expanded-hover: var(--ynfw-color-bg-body-table);
+  --ynfw-color-bg-cell-table: var(--ynfw-color-bg-body-table);
+  --ynfw-color-bg-body-table: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-info-tag: var(--ynfw-color-info-light);
+  --ynfw-color-border-info-tag: var(--border-info);
+  --ynfw-color-text-info-tag: var(--ynfw-color-info);
+  --ynfw-color-border-danger-tag: var(--border-danger);
+  --ynfw-color-border-warning-tag: var(--border-warning);
+  --ynfw-color-bg-tag: var(--grey-100);
+  --ynfw-color-bg-success-tag: var(--ynfw-color-success-light);
+  --ynfw-color-bg-tag-dark: var(--grey-600);
+  --ynfw-color-text-value-form: var(--ynfw-color-text-primary-global);
+  --ynfw-color-bg-start-tag: var(--bg-start);
+  --ynfw-color-text-warning-tag: var(--ynfw-color-warning);
+  --ynfw-color-border-tag-dark: var(--tran);
+  --ynfw-color-text-invalid-tag: var(--text-invalid);
+  --ynfw-color-border-invalid-tag: var(--border-invalid);
+  --ynfw-color-text-success-tag: var(--ynfw-color-success);
+  --ynfw-color-border-start-tag: var(--border-start);
+  --ynfw-color-border-success-tag: var(--border-success);
+  --ynfw-color-border-tag: var(--tran);
+  --ynfw-color-bg-danger-tag: var(--ynfw-color-danger-light);
+  --ynfw-color-bg-warning-tag: var(--ynfw-color-warning-light);
+  --ynfw-color-text-label-form: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-start-tag: var(--text-start);
+  --ynfw-color-bg-invalid-tag: var(--bg-invalid);
+  --ynfw-color-text-danger-tag: var(--ynfw-color-danger);
+  --ynfw-color-bg-global-selected-hover: var(--select-hover);
+  --ynfw-color-text-inverse-steps: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-inverse-title-notification: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-text-inverse-content-notification: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-border-line-nav: var(--grey-200);
+  --ynfw-color-text-tag-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-menu-selected: var(--ynfw-color-primary);
+  --ynfw-color-text-content-calendar-disabled: var(
+    --ynfw-color-text-picker-disabled
+  );
+  --ynfw-color-text-content-calendar-hover: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-header-calendar: var(--ynfw-color-text-picker);
+  --ynfw-color-text-week-calendar: var(--ynfw-color-text-picker);
+  --ynfw-color-bg-fill-checkbox-disabled: var(
+    --ynfw-color-bg-tiled-option-disabled
+  );
+  --ynfw-color-bg-fill-checkbox: var(--ynfw-color-bg-tiled-option);
+  --ynfw-color-bg-pagenumber-pagination-selected: var(
+    --ynfw-color-bg-grey-hover
+  );
+  --ynfw-color-bg-fill-radio: var(--ynfw-color-bg-tiled-option);
+  --ynfw-color-bg-fill-radio-disabled: var(
+    --ynfw-color-bg-tiled-option-disabled
+  );
+  --ynfw-color-text-inverse-fill-message: var(
+    --ynfw-color-text-inverse-feedback
+  );
+  --ynfw-color-bg-fill-message-warning: var(--ynfw-color-warning);
+  --ynfw-color-text-inverse-fill-alert: var(--ynfw-color-text-inverse-feedback);
+  --ynfw-color-bg-alert-info: var(--ynfw-color-info-light);
+  --ynfw-color-bg-message-warning: var(--ynfw-color-warning-light);
+  --ynfw-color-text-content-calendar: var(--ynfw-color-text-picker);
+  --ynfw-color-border-message-success: var(--ynfw-color-success);
+  --ynfw-color-border-message-info: var(--ynfw-color-info);
+  --ynfw-color-bg-fill-message-success: var(--ynfw-color-success);
+  --ynfw-color-bg-fill-alert-success: var(--ynfw-color-success);
+  --ynfw-color-bg-fill-radio-selected-disabled: var(
+    --ynfw-color-primary-disabled
+  );
+  --ynfw-color-border-fill-radio-disabled: var(
+    --ynfw-color-border-tiled-option-disabled
+  );
+  --ynfw-color-bg-fill-checkbox-selected-disabled: var(
+    --ynfw-color-primary-disabled
+  );
+  --ynfw-color-text-inverse-feedback: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-border-fill-radio-hover: var(--ynfw-color-border-global-hover);
+  --ynfw-color-text-content-card-calendar-selected: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-border-fill-checkbox-hover: var(
+    --ynfw-color-border-global-hover
+  );
+  --ynfw-color-text-upload: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-content-card: var(--ynfw-color-text-tertiary-global);
+  --ynfw-color-icon-inverse-fill-alert: var(--ynfw-color-text-inverse-feedback);
+  --ynfw-color-bg-message-success: var(--ynfw-color-success-light);
+  --ynfw-color-bg-message-info: var(--ynfw-color-info-light);
+  --ynfw-color-text-hint-upload: var(--ynfw-color-text-tertiary-global);
+  --ynfw-color-bg-fill-alert-warning: var(--ynfw-color-warning);
+  --ynfw-color-icon-inverse-fill-message: var(
+    --ynfw-color-text-inverse-feedback
+  );
+  --ynfw-color-border-message-warning: var(--ynfw-color-warning);
+  --ynfw-color-bg-message-danger: var(--ynfw-color-danger-light);
+  --ynfw-color-bg-fill-message-info: var(--ynfw-color-info);
+  --ynfw-color-bg-alert-danger: var(--ynfw-color-danger-light);
+  --ynfw-color-bg-fill-alert-info: var(--ynfw-color-info);
+  --ynfw-color-bg-alert-success: var(--ynfw-color-success-light);
+  --ynfw-color-bg-fill-message-danger: var(--ynfw-color-danger);
+  --ynfw-color-bg-fill-radio-selected-hover: var(--ynfw-color-primary-hover);
+  --ynfw-color-bg-fill-checkbox-selected: var(--ynfw-color-primary);
+  --ynfw-color-border-fill-checkbox-disabled: var(
+    --ynfw-color-border-tiled-option-disabled
+  );
+  --ynfw-color-bg-fill-checkbox-selected-hover: var(--ynfw-color-primary-hover);
+  --ynfw-color-bg-fill-alert-danger: var(--ynfw-color-danger);
+  --ynfw-color-border-message-danger: var(--ynfw-color-danger);
+  --ynfw-color-bg-alert-warning: var(--ynfw-color-warning-light);
+  --ynfw-color-text-fill-tabs-selected: var(--ynfw-color-text-tabs-inverse);
+  --ynfw-color-text-inverse-content-popconfirm: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-text-inverse-tooltip: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-icon-spin: var(--ynfw-color-primary);
+  --ynfw-color-text-inverse-content-popover: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-text-inverse-title-popconfirm: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-text-inverse-title-popover: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-border-cell-table-default: var(--ynfw-color-border-table);
+  --ynfw-color-border-table: var(--ynfw-color-border-global);
+  --ynfw-color-text-content-card-collapse: var(
+    --ynfw-color-text-secondary-global
+  );
+  --ynfw-color-text-title-modal: var(--ynfw-color-text-title-feedback);
+  --ynfw-color-text-inverse-tabs: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-bg-notification: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-workbench-sidebar-item-focus: var(--brand-700);
+  --ynfw-color-bg-cell-timepicker-hover: var(--ynfw-color-bg-cell-picker);
+  --ynfw-color-border-input-hover: var(--grey-600);
+  --ynfw-color-icon-input-suffix-pressed: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-input-suffix-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-global-disabled: var(--grey-300);
+  --ynfw-color-bg-number-steps-ing: var(--ynfw-color-primary);
+  --ynfw-color-border-anchor-focus: var(--ynfw-color-primary);
+  --ynfw-color-bg-popconfirm: var(--ynfw-color-bg-feedback);
+  --ynfw-color-bg-popover: var(--ynfw-color-bg-feedback);
+  --ynfw-color-border-item-list: var(--ynfw-color-border-container);
+  --ynfw-color-bg-body-card: var(--ynfw-color-bg-container);
+  --ynfw-color-bg-body-collapse: var(--ynfw-color-bg-container);
+  --ynfw-color-border-list: var(--ynfw-color-border-container);
+  --ynfw-color-border-modal: var(--ynfw-color-border-feedback);
+  --ynfw-color-border-collapse: var(--ynfw-color-border-container);
+  --ynfw-color-bg-header-card: var(--ynfw-color-bg-container);
+  --ynfw-color-bg-scrollbg-scrollbar: var(--grey-100);
+  --ynfw-color-bg-modal: var(--ynfw-color-bg-feedback);
+  --ynfw-color-border-drawer: var(--ynfw-color-border-feedback);
+  --ynfw-color-border-header-card: var(--ynfw-color-border-container);
+  --ynfw-color-border-card: var(--ynfw-color-border-container);
+  --ynfw-color-bg-header-collapse: var(--ynfw-color-bg-container);
+  --ynfw-color-bg-drawer: var(--ynfw-color-bg-feedback);
+  --ynfw-color-bg-fill-tabs: var(--ynfw-color-bg-white-tabs);
+  --ynfw-color-bg-fade-tabs: var(--grey-200);
+  --ynfw-color-bg-fade-tabs-selected: var(--ynfw-color-bg-white-tabs);
+  --ynfw-color-border-presuppose-datepicker-hover: var(
+    --ynfw-color-primary-light
+  );
+  --ynfw-color-bg-cell-datepicker-selected: var(--ynfw-color-primary);
+  --ynfw-color-border-presuppose-datepicker-selected: var(--ynfw-color-primary);
+  --ynfw-color-border-presuppose-datepicker: var(--ynfw-color-border-global);
+  --ynfw-color-bg-tooltip: var(--ynfw-color-dark);
+  --ynfw-color-bg-fill-tabs-selected: var(--ynfw-color-primary);
+  --ynfw-color-bg-presuppose-datepicker-hover: var(--ynfw-color-primary-light);
+  --ynfw-color-bg-alert: var(--ynfw-color-bg-feedback);
+  --ynfw-color-bg-cell-datepicker-focus-disabled: var(--brand-200);
+  --ynfw-color-icon-panel-datepicker-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-panel-datepicker: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-cell-timepicker-selected: var(--ynfw-color-primary-light);
+  --ynfw-color-bg-cell-datepicker-focus: var(--ynfw-color-primary);
+  --ynfw-color-border-message: var(--ynfw-color-border-feedback);
+  --ynfw-color-bg-message: var(--ynfw-color-bg-feedback);
+  --ynfw-color-bg-cell-datepicker-hover: var(--ynfw-color-primary-light);
+  --ynfw-color-border-checkbox: var(--ynfw-color-border-tiled-option);
+  --ynfw-color-bg-icon-transfer: var(--grey-100);
+  --ynfw-color-border-button-radio-hover: var(
+    --ynfw-color-border-sideline-btn-hover
+  );
+  --ynfw-color-bg-card-tabs-selected: var(--ynfw-color-bg-white-tabs);
+  --ynfw-color-border-down-fill-tabs: var(--ynfw-color-border-tabs);
+  --ynfw-color-border-leftright-card-tabs: var(--ynfw-color-border-tabs);
+  --ynfw-color-bg-icon-transfer-hover: var(--grey-200);
+  --ynfw-color-bg-primary-tabs: var(--ynfw-color-bg-tabs);
+  --ynfw-color-bg-card-tabs-hover: var(--grey-200);
+  --ynfw-color-bg-primary-tabs-unselected: var(--ynfw-color-bg-white-tabs);
+  --ynfw-color-border-down-line-tabs: var(--ynfw-color-border-tabs);
+  --ynfw-color-border-down-trangle-tabs: var(--grey-600);
+  --ynfw-color-bg-transfer: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-button-radio: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-top-card-tabs-selected: var(--grey-600);
+  --ynfw-color-bg-radio-disabled: var(--ynfw-color-bg-tiled-option-disabled);
+  --ynfw-color-bg-button-radio-selected: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-button-radio-selected: var(
+    --ynfw-color-border-sideline-btn-pressed
+  );
+  --ynfw-color-bg-primary-tabs-selected: var(--ynfw-color-primary);
+  --ynfw-color-bg-checkbox-disabled: var(--ynfw-color-bg-tiled-option-disabled);
+  --ynfw-color-border-trapezoid-tabs: var(--ynfw-color-border-tabs);
+  --ynfw-color-bg-icon-transfer-disabled: var(--grey-100);
+  --ynfw-color-bg-card-tabs: var(--ynfw-color-bg-tabs);
+  --ynfw-color-border-underline-line-tabs: var(--ynfw-color-primary);
+  --ynfw-color-border-down-card-tabs: var(--ynfw-color-border-tabs);
+  --ynfw-color-bg-button-radio-hover: var(--ynfw-color-bg-sideline-btn-hover);
+  --ynfw-color-border-backtop-pressed: var(--ynfw-color-border-global-hover);
+  --ynfw-color-bg-backtop-pressed: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-border-backtop-hover: var(--ynfw-color-border-global-hover);
+  --ynfw-color-bg-mark-fill-checkbox-selected: var(--light);
+  --ynfw-color-bg-backtop-hover: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-bg-dot-fill-radio-selected: var(--light);
+  --ynfw-color-bg-radio-selected-disabled: var(--grey-300);
+  --ynfw-color-bg-fill-radio-selected: var(--ynfw-color-primary);
+  --ynfw-color-border-backtop: var(--ynfw-color-border-global);
+  --ynfw-color-icon-transfer: var(--ynfw-color-dark);
+  --ynfw-color-bg-mark-checkbox-selected: var(--ynfw-color-primary);
+  --ynfw-color-border-checkbox-hover: var(
+    --ynfw-color-border-tiled-option-hover
+  );
+  --ynfw-color-icon-transfer-disabled: var(--ynfw-color-dark-disabled);
+  --ynfw-color-border-radio-pressed: var(
+    --ynfw-color-border-tiled-option-pressed
+  );
+  --ynfw-color-border-checkbox-disabled: var(
+    --ynfw-color-border-tiled-option-disabled
+  );
+  --ynfw-color-border-checkbox-pressed: var(
+    --ynfw-color-border-tiled-option-pressed
+  );
+  --ynfw-color-bg-backtop: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-radio-disabled: var(
+    --ynfw-color-border-tiled-option-disabled
+  );
+  --ynfw-color-bg-mark-checkbox-selected-disabled: var(--grey-300);
+  --ynfw-color-border-transfer: var(--ynfw-color-border-global);
+  --ynfw-color-border-radio: var(--ynfw-color-border-tiled-option);
+  --ynfw-color-border-radio-hover: var(--ynfw-color-border-tiled-option-hover);
+  --ynfw-color-bg-handle-slider: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-handle-slider: var(--ynfw-color-info);
+  --ynfw-color-bg-arrow-steps-ing: var(--ynfw-color-icon-nav-ing);
+  --ynfw-color-bg-card-collapse: var(--grey-50);
+  --ynfw-color-border-divider-list-collapse: var(--ynfw-color-border-global);
+  --ynfw-color-bg-arrow-steps-waited: var(--ynfw-color-border-line-nav);
+  --ynfw-color-icon-nav-finished: var(--ynfw-color-success);
+  --ynfw-color-border-item-timeline-finished: var(
+    --ynfw-color-icon-nav-finished
+  );
+  --ynfw-color-text-title-card-collapse: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-title-list: var(--ynfw-color-text-title-container);
+  --ynfw-color-text-title-list-collapse: var(--ynfw-color-text-primary-global);
+  --ynfw-color-border-underline-horizontal-menu-selected: var(
+    --ynfw-color-primary
+  );
+  --ynfw-color-bg-item-timeline: var(--ynfw-color-bg-global-default);
+  --ynfw-color-icon-anchor-disabled: var(--ynfw-color-icon-global-disabled);
+  --ynfw-color-icon-nav-ing: var(--ynfw-color-info);
+  --ynfw-color-bg-arrow-steps-waited-hover: var(--grey-300);
+  --ynfw-color-text-content-list: var(--ynfw-color-text-tertiary-global);
+  --ynfw-color-icon-more-nav: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-list-collapse: var(--grey-50);
+  --ynfw-color-border-underline-horizontal-menu: var(
+    --ynfw-color-border-global
+  );
+  --ynfw-color-bg-line-slider-finshed: var(--ynfw-color-info);
+  --ynfw-color-bg-line-slider: var(--ynfw-color-bg-grey);
+  --ynfw-color-text-inverse-textbtn: var(--link-500);
+  --ynfw-color-icon-default-steps-ing: var(--ynfw-color-icon-nav-ing);
+  --ynfw-color-border-line-anchor: var(--ynfw-color-border-line-nav);
+  --ynfw-color-bg-item-arrow-steps: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-item-timeline-ing: var(--ynfw-color-icon-nav-ing);
+  --ynfw-color-border-line-timeline: var(--ynfw-color-border-line-nav);
+  --ynfw-color-text-card-collapse: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-icon-default-steps-finished: var(--ynfw-color-icon-nav-finished);
+  --ynfw-color-icon-backtop: var(--ynfw-color-dark);
+  --ynfw-color-text-inverse-textbtn-hover: var(--link-400);
+  --ynfw-color-text-content-list-collapse: var(
+    --ynfw-color-text-secondary-global
+  );
+  --ynfw-color-border-line-default-steps: var(--ynfw-color-border-line-nav);
+  --ynfw-color-icon-more-nav-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-text-item-arrow-steps-ing: var(--ynfw-color-info);
+  --ynfw-color-bg-handle-switch: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-switch-default: var(--grey-400);
+  --ynfw-color-text-number-steps-ing: var(--ynfw-color-bg-global-default);
+  --ynfw-color-text-item-arrow-steps-warning: var(--ynfw-color-warning);
+  --ynfw-color-bg-number-steps-finished: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-switch-actived: var(--ynfw-color-primary);
+  --ynfw-color-border-line-number-steps-finished: var(--ynfw-color-primary);
+  --ynfw-color-text-item-arrow-steps-finished: var(--ynfw-color-success);
+  --ynfw-color-icon-default-steps-danger: var(--ynfw-color-icon-nav-danger);
+  --ynfw-color-bg-line-progress-finished: var(--ynfw-color-info);
+  --ynfw-color-bg-arrow-steps-warning: var(--warning-light);
+  --ynfw-color-bg-arrow-steps-ing-hover: var(--link-700);
+  --ynfw-color-icon-dot-steps-finished: var(--ynfw-color-icon-nav-danger);
+  --ynfw-color-bg-number-steps-waited: var(--grey-100);
+  --ynfw-color-text-number-steps-finished: var(--ynfw-color-primary);
+  --ynfw-color-border-item-timeline-danger: var(--ynfw-color-icon-danger-nav);
+  --ynfw-color-icon-nav-danger: var(--ynfw-color-danger);
+  --ynfw-color-border-number-steps-waited: var(--ynfw-color-border-line-nav);
+  --ynfw-color-text-item-arrow-steps-waited: var(
+    --ynfw-color-text-primary-global
+  );
+  --ynfw-color-bg-arrow-steps-finished: var(--finished);
+  --ynfw-color-text-number-steps-waited: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-icon-dot-steps-waited: var(--ynfw-color-border-global);
+  --ynfw-color-bg-arrow-steps-finished-hover: var(--finished-hover);
+  --ynfw-color-border-item-number-steps-finished: var(
+    --ynfw-color-icon-nav-danger
+  );
+  --ynfw-color-border-line-dot-steps-waited: var(--ynfw-color-border-line-nav);
+  --ynfw-color-border-line-dot-steps-finished: var(--ynfw-color-border-global);
+  --ynfw-color-bg-breadcrumb: var(--grey-100);
+  --ynfw-color-border-menu: var(--ynfw-color-border-global);
+  --ynfw-color-icon-arrow-pagination-disabled: var(
+    --ynfw-color-icon-global-disabled
+  );
+  --ynfw-color-icon-arrow-item-menu-dark-hover: var(--light);
+  --ynfw-color-icon-arrow-pagination-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-border-pagenumber-nointerval-pagination-hover: var(
+    --ynfw-color-border-global-hover
+  );
+  --ynfw-color-border-pagenumber-nointerval-pagination: var(
+    --ynfw-color-border-global
+  );
+  --ynfw-color-bg-pagenumber-pagination: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-pagenumber-pagination-hover: var(
+    --ynfw-color-bg-global-hover
+  );
+  --ynfw-color-bg-dark-menu: var(--grey-700);
+  --ynfw-color-bg-menu: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-dark-menu-hover: var(--grey-800);
+  --ynfw-color-bg-item-menu-selected-hover: var(
+    --ynfw-color-bg-global-selected-hover
+  );
+  --ynfw-color-bg-item-menu-selected: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-border-item-menu-selected: var(--ynfw-color-primary);
+  --ynfw-color-bg-dark-menu-selected: var(--grey-900);
+  --ynfw-color-icon-arrow-item-menu-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-icon-arrow-item-menu: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-badge: var(--ynfw-color-primary);
+  --ynfw-color-border-badge: var(--light);
+  --ynfw-color-border-switch-pressed: var(--ynfw-color-primary-light);
+  --ynfw-color-bg-item-rate-selected: var(--ynfw-color-warning);
+  --ynfw-color-icon-arrow-item-menu-dark-selected: var(--light);
+  --ynfw-color-icon-arrow-pagination: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-border-pagenumber-nointerval-pagination-selected: var(
+    --ynfw-color-info
+  );
+  --ynfw-color-border-item-rate: var(--ynfw-color-border-global);
+  --ynfw-color-bg-item-menu-hover: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-icon-arrow-item-dark-menu: var(--grey-400);
+  --ynfw-color-bg-pagenumber-pagination-selected-hover: var(--grey-500);
+  --ynfw-color-icon-input-suffix-disabled: var(
+    --ynfw-color-icon-global-disabled
+  );
+  --ynfw-color-border-richtext-disabled: var(
+    --ynfw-color-border-input-disabled
+  );
+  --ynfw-color-text-richtext: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-richtext-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-icon-richtext-disabled: var(--ynfw-color-icon-global-disabled);
+  --ynfw-color-text-placeholder-richtext: var(
+    --ynfw-color-text-placeholder-global
+  );
+  --ynfw-color-bg-icon-richtext-hover: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-bg-icon-richtext-selected: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-border-richtext-focused: var(--ynfw-color-border-focused);
+  --ynfw-color-border-richtext-hover: var(--ynfw-color-border-input-hover);
+  --ynfw-color-border-scrollbar: var(--ynfw-color-border-global);
+  --ynfw-color-bg-icon-richtext: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-sideline-btn-hover: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-border-richtext: var(--ynfw-color-border-input);
+  --ynfw-color-border-sideline-btn-hover: var(--ynfw-color-border-global-hover);
+  --ynfw-color-bg-sideline-btn-pressed: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-bg-sideline-btn-default: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-sideline-btn-disabled: var(
+    --ynfw-color-bg-global-selected-hover
+  );
+  --ynfw-color-bg-icon-richtext-selected-hover: var(
+    --ynfw-color-bg-global-selected-hover
+  );
+  --ynfw-color-border-sideline-btn-default: var(--ynfw-color-border-global);
+  --ynfw-color-icon-richtext: var(--grey-600);
+  --ynfw-color-border-sideline-btn-pressed: var(
+    --ynfw-color-border-global-selected
+  );
+  --ynfw-color-border-sideline-btn-disabled: var(
+    --ynfw-color-border-global-disabled
+  );
+  --ynfw-color-bg-secondary-btn-hover: var(--grey-400);
+  --ynfw-color-bg-secondary-btn-perssed: var(--grey-400);
+  --ynfw-color-bg-dark-btn-default-pressed: var(--ynfw-color-dark-pressed);
+  --ynfw-color-bg-dark-btn-default-hover: var(--ynfw-color-dark-hover);
+  --ynfw-color-bg-secondary-btn-default: var(--grey-300);
+  --ynfw-color-bg-dark-btn-default-disabled: var(--ynfw-color-dark-disabled);
+  --ynfw-color-bg-secondary-btn-disabled: var(--grey-100);
+  --ynfw-color-bg-dark-btn-default: var(--ynfw-color-dark);
+  --ynfw-color-bg-white-tabs: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-primary-btn-default: var(--ynfw-color-primary);
+  --ynfw-color-bg-tabs: var(--grey-100);
+  --ynfw-color-bg-feedback: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-tiled-option-disabled: var(
+    --ynfw-color-border-global-disabled
+  );
+  --ynfw-color-border-container: var(--ynfw-color-border-global);
+  --ynfw-color-bg-tiled-option-disabled: var(--grey-100);
+  --ynfw-color-bg-primary-btn-hover: var(--ynfw-color-primary-hover);
+  --ynfw-color-icon-close-feedback-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-border-panel-picker: var(--ynfw-color-border-global);
+  --ynfw-color-bg-tiled-option: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-feedback: var(--ynfw-color-border-global);
+  --ynfw-color-bg-cell-picker: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-primary-btn-pressed: var(--ynfw-color-primary-pressed);
+  --ynfw-color-icon-close-feedback: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-panel-picker: var(--ynfw-color-bg-global-default);
+  --ynfw-color-border-tabs: var(--ynfw-color-border-global);
+  --ynfw-color-bg-container: var(--ynfw-color-bg-global-default);
+  --ynfw-color-bg-primary-btn-disabled: var(--ynfw-color-primary-disabled);
+  --ynfw-color-border-tiled-option-hover: var(--ynfw-color-border-global-hover);
+  --ynfw-color-border-tiled-option-pressed: var(
+    --ynfw-color-border-global-selected
+  );
+  --ynfw-color-border-tiled-option: var(--ynfw-color-border-global);
+  --ynfw-color-bg-workbench-sidebar-default: var(--brand-600);
+  --ynfw-color-border-workbench-sidebar-item-hover: var(--brand-500);
+  --ynfw-color-bg-workbench-sidebar-item-hover: var(--brand-500);
+  --ynfw-color-icon-global-hover: var(--grey-600);
+  --ynfw-color-icon-global-selected: var(--grey-600);
+  --ynfw-color-icon-global-pressed: var(--grey-600);
+  --ynfw-color-bg-option-panel: var(--ynfw-color-bg-global-default);
+  --ynfw-color-text-inverse-btn-hover: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-bg-option-selected: var(--ynfw-color-bg-global-selected);
+  --ynfw-color-border-option-panel: var(--ynfw-color-border-global);
+  --ynfw-color-bg-option-selected-hover: var(
+    --ynfw-color-bg-global-selected-hover
+  );
+  --ynfw-color-bg-option-hover: var(--ynfw-color-bg-global-hover);
+  --ynfw-color-text-inverse-btn-pressed: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-inverse-btn: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-bg-global-selected: var(--select);
+  --ynfw-color-link: var(--link-700);
+  --ynfw-color-border-global: var(--grey-300);
+  --ynfw-color-border-global-selected: var(--grey-600);
+  --ynfw-color-link-hover: var(--link-500);
+  --ynfw-color-border-global-hover: var(--grey-600);
+  --ynfw-color-dark: var(--grey-600);
+  --ynfw-color-border-global-disabled: var(--grey-200);
+  --ynfw-color-bg-grey-hover: var(--grey-400);
+  --ynfw-color-bg-grey: var(--grey-200);
+  --ynfw-color-bg-row-table-selected: var(--select);
+  --ynfw-color-text-input-placeholder: var(
+    --ynfw-color-text-placeholder-global
+  );
+  --ynfw-color-text-placeholder-global: var(--grey-400);
+  --ynfw-color-text-search-workbench-header: var(
+    --ynfw-color-text-input-placeholder
+  );
+  --ynfw-color-border-search-workbench-header: var(--tran);
+  --ynfw-color-bg-tab-workbench-selected: var(--brand-50);
+  --ynfw-color-border-tabbottom-workbench-selected: var(--brand-200);
+  --ynfw-color-text-tab-workbench-selected: var(--brand-500);
+  --ynfw-color-text: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-text-tertiary-select: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-rate: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-select-disabled: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-line-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-tree: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-content-transfer: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-line-tabs-selected: var(--ynfw-color-text-tabs-selected);
+  --ynfw-color-text-option-panel-disabled: var(
+    --ynfw-color-text-disabled-global
+  );
+  --ynfw-color-text-anchor-selected: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-title-popover: var(--ynfw-color-text-title-feedback);
+  --ynfw-color-text-fill-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-breadcrumb-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-menu-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-trangle-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-content-notification: var(
+    --ynfw-color-text-content-feedback
+  );
+  --ynfw-color-text-header-datepicker: var(--ynfw-color-text-picker);
+  --ynfw-color-text-pagination-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-menu: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-content-collapse: var(--ynfw-color-text-content-feedback);
+  --ynfw-color-text-tertiary-steps: var(--ynfw-color-text-tertiary-global);
+  --ynfw-color-text-card-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-slider: var(--ynfw-color-text-tertiary-global);
+  --ynfw-color-text-spin: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-progress: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-anchor-hover: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-breadcrumb: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-text-pagination: var(--ynfw-color-text-primary-global);
+  --ynfw-color-border-pagination-arrow-hover: var(--grey-400);
+  --ynfw-color-icon-tabs: var(--ynfw-color-icon-global-normal);
+  --ynfw-color-bg-editablecard-tabs: var(--grey-100);
+  --ynfw-color-icon-tree: var(--grey-900);
+  --ynfw-color-bg-editablecard-tabs-selected: var(--light);
+  --ynfw-color-text-checkbox-disabled: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-secondary-global: var(--grey-700);
+  --ynfw-color-text-content-datepicker-selected: var(
+    --ynfw-color-text-inverse-global
+  );
+  --ynfw-color-text-nav: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-title-timeline: var(--ynfw-color-text-nav);
+  --ynfw-color-text-picker: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-trapezoid-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-list: var(--ynfw-color-text-title-container);
+  --ynfw-color-text-content-datepicker-disabled: var(
+    --ynfw-color-text-picker-disabled
+  );
+  --ynfw-color-text-fade-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-select: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-content-feedback: var(--ynfw-color-text-secondary-global);
+  --ynfw-color-text-tabs-inverse: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-content-transfer-disabled: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-empty: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-radio-disabled: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-cascader: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-radiobutton-selected: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-nav-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-radiobutton-disabled: var(--ynfw-color-text-btn-disabled);
+  --ynfw-color-text-checkbox: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-tabs-hover: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-content-modal: var(--ynfw-color-text-content-feedback);
+  --ynfw-color-text-week-datepicker: var(--ynfw-color-text-picker);
+  --ynfw-color-text-content-datepicker: var(--ynfw-color-text-picker);
+  --ynfw-color-text-fade-tabs-selected: var(--ynfw-color-text-tabs-selected);
+  --ynfw-color-text-line-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-timepicker: var(--ynfw-color-text-picker);
+  --ynfw-color-text-content-datepicker-hover: var(
+    --ynfw-color-text-brand-global
+  );
+  --ynfw-color-text-editablecard-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-option-panel: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-title-container: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-title-notification: var(--ynfw-color-text-title-feedback);
+  --ynfw-color-border-pagination-arrow-selected: var(--grey-400);
+  --ynfw-color-text-radiobutton: var(--ynfw-color-text-btn-default);
+  --ynfw-color-text-tree-disabled: var(--ynfw-color-text-option-panel-disabled);
+  --ynfw-color-text-fill-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-time-timeline: var(--ynfw-color-text-nav-disabled);
+  --ynfw-color-text-title-feedback: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-trangle-tabs: var(--ynfw-color-text-tabs);
+  --ynfw-color-text-anchor: var(--ynfw-color-text-nav);
+  --ynfw-color-text-alert: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-steps-disabled: var(--ynfw-color-text-nav-disabled);
+  --ynfw-color-text-cascader-disabled: var(
+    --ynfw-color-text-option-panel-disabled
+  );
+  --ynfw-color-text-title-card: var(--ynfw-color-text-title-container);
+  --ynfw-color-text-steps: var(--ynfw-color-text-nav);
+  --ynfw-color-text-radio: var(--ynfw-color-text-option-panel);
+  --ynfw-color-text-header-transfer: var(--ynfw-color-text-primary-global);
+  --ynfw-color-text-editablecard-tabs-selected: var(
+    --ynfw-color-text-brand-global
+  );
+  --ynfw-color-text-tag: var(--ynfw-color-text);
+  --ynfw-color-text-badge: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-trangle-tabs-selected: var(--ynfw-color-text-brand-global);
+  --ynfw-color-text-slider-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-picker-disabled: var(--ynfw-color-text-disabled-global);
+  --ynfw-color-text-fade-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-title-popconfirm: var(--ynfw-color-text-title-feedback);
+  --ynfw-color-text-content-timeline: var(--ynfw-color-text-nav);
+  --ynfw-color-text-content-popconfirm: var(--ynfw-color-text-content-feedback);
+  --ynfw-color-text-tooltip: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-content-popover: var(--ynfw-color-text-content-feedback);
+  --ynfw-color-text-alert-dark: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-timepicker-disabled: var(--ynfw-color-text-picker-disabled);
+  --ynfw-color-text-switch: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-group-select: var(--ynfw-color-text-option-panel-disabled);
+  --ynfw-color-text-title-collapse: var(--ynfw-color-text-title-container);
+  --ynfw-color-text-title-drawer: var(--ynfw-color-text-title-feedback);
+  --ynfw-color-text-card-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-editablecard-tabs-hover: var(--ynfw-color-text-tabs-hover);
+  --ynfw-color-text-tag-dark: var(--ynfw-color-text-inverse-global);
+  --ynfw-color-text-card-tabs-selected: var(--ynfw-color-text-tabs-selected);
+  --ynfw-color-bg-row-table-find: var(--highlight);
+  --ynfw-color-text-tabs-selected: var(--ynfw-color-text-primary-global);
+  --ynfw-color-icon-tabs-hover: var(--ynfw-color-icon-global-hover);
+  --ynfw-color-bg-row-table-find-selected: var(--highlight-hover);
+  --ynfw-color-icon-global-normal: var(--grey-400);
+  --ynfw-color-border-editablecard-tabs-selected: var(--grey-300);
+  --ynfw-color-border-editablecard-tabs: var(--grey-300);
+  --ynfw-color-border-input-danger: var(--danger);
+  --ynfw-color-cursor: var(--grey-900);
+  --ynfw-color-bg-icon-input: var(--tran);
+  --ynfw-color-border-top-table: var(--grey-400);
+  --ynfw-color-bg-icon-header-table: var(--tran);
+  --ynfw-color-bg-row-table-selected-hover: var(--grey-300);
+  --ynfw-color-bg-subtotal-table: var(--highlight);
+  --ynfw-color-bg-total-table: var(--highlight-hover);
+  --ynfw-color-primary-disabled: var(--brand-200);
+  --ynfw-color-dark-disabled: var(--grey-400);
+  --ynfw-color-bg-secondary-disabled: var(--grey-100);
+  --ynfw-color-icon-btn: var(--grey-600);
+  --ynfw-color-icon-btn-pressed: var(--grey-700);
+  --ynfw-color-icon-btn-disabled: var(--grey-400);
+  --ynfw-color-bg-icon-input-hover: var(--tran);
+  --ynfw-color-bg-panel: var(--light);
+  --ynfw-color-border-input-disabled: var(--grey-200);
+  --ynfw-color-text-textbtn-pressed: var(--link-700);
+  --ynfw-color-text-textbtn-disabled: var(--grey-300);
+  --ynfw-color-bg-card-header: var(--grey-100);
+  --ynfw-color-icon-rate-default: var(--grey-400);
+  --ynfw-color-bg-skeleton: var(--grey-50);
+  --ynfw-color-bg-skeleton-bold: var(--grey-200);
+  --ynfw-color-bg-switch: var(--grey-400);
+  --ynfw-color-text-tabs-overflow-btn: var(--grey-600);
+  --ynfw-color-border-tabs-linemode: var(--grey-100);
+  --ynfw-color-bg-tabs-linemode-hover: var(--grey-50);
+  --ynfw-color-bg-tabs-menu-cardmode: var(--grey-100);
+  --ynfw-color-bg-calendar-header: var(--grey-100);
+  --ynfw-color-border-calendar-header: var(--grey-600);
+  --ynfw-color-bg-tabs-cardmode-hover: var(--grey-100);
+  --ynfw-color-bg-tabs-cardmode-active: var(--light);
+  --ynfw-color-border-tabs-cardmode-active: var(--grey-600);
+  --ynfw-color-border-tabs-tranglemode: var(--grey-600);
+  --ynfw-color-bg-steps-arrowmode: var(--light);
+  --ynfw-color-bg-timeline-customicon: var(--light);
+  --ynfw-color-text-avatar: var(--light);
+  --ynfw-color-border-avatar: var(--light);
+  --ynfw-color-bg-avatar: var(--grey-300);
+  --ynfw-color-bg-input: var(--light);
+  --ynfw-color-dark-hover: var(--grey-700);
+  --ynfw-color-success: var(--success);
+  --ynfw-color-success-light: var(--success-light);
+  --ynfw-color-info: var(--info);
+  --ynfw-color-info-light: var(--info-light);
+  --ynfw-color-warning: var(--warning);
+  --ynfw-color-warning-light: var(--warning-light);
+  --ynfw-color-danger: var(--danger);
+  --ynfw-color-danger-light: var(--danger-light);
+  --ynfw-color-primary: var(--brand-500);
+  --ynfw-color-primary-hover: var(--brand-600);
+  --ynfw-color-primary-pressed: var(--brand-700);
+  --ynfw-color-primary-light: var(--brand-100);
+  --ynfw-color-bg-checkbox: var(--light);
+  --ynfw-color-bg-pagination-arrow-disabled: var(--tran);
+  --ynfw-color-info-default: var(--info);
+  --ynfw-color-bg-workbench-header: var(--light);
+  --ynfw-color-text-workbench-header: var(--grey-600);
+  --ynfw-color-bg-navicon-workbench-header: var(--brand-500);
+  --ynfw-color-bg-navicon-workbench-header-hover: var(--brand-600);
+  --ynfw-color-bg-search-workbench-header: var(--grey-100);
+  --ynfw-color-text-tab-workbench: var(--grey-600);
+  --ynfw-color-bg-tabbar-workbench: var(--grey-100);
+  --ynfw-color-border-tabbottom-workbench: var(--tran);
+  --ynfw-color-bg-tab-workbench: var(--tran);
+  --ynfw-color-text-discovery: var(--info);
+  --ynfw-color-border-selected: var(--link-500);
+  --ynfw-color-link-pressed: var(--link-500);
+  --ynfw-color-info-inverse: var(--info-light);
+  --ynfw-color-info-hover: var(--info);
+  --ynfw-color-border-warning: var(--warning);
+  --ynfw-color-border-danger: var(--danger);
+  --ynfw-color-icon-danger-inverse: var(--danger-light);
+  --ynfw-color-icon-danger: var(--danger);
+  --ynfw-color-text-danger-inverse: var(--danger-light);
+  --ynfw-color-text-danger: var(--danger);
+  --ynfw-color-border-discovery: var(--info);
+  --ynfw-color-icon-discovery: var(--info);
+  --ynfw-color-skeleton: var(--grey-300);
+  --ynfw-color-blanket-dark: var(--grey-700);
+  --ynfw-color-blanket-primary: var(--grey-400);
+  --ynfw-color-border-bold: var(--grey-400);
+  --ynfw-color-border-inverse: var(--grey-50);
+  --ynfw-color-icon-selected: var(--grey-700);
+  --ynfw-color-icon-accent-grey-bolder: var(--grey-500);
+  --ynfw-color-icon-accent: var(--grey-500);
+  --ynfw-color-icon-secondary: var(--grey-500);
+  --ynfw-color-icon-primary: var(--grey-700);
+  --ynfw-color-text-accent-grey-bold: var(--grey-100);
+  --ynfw-color-text-accent-grey: var(--grey-900);
+  --ynfw-color-text-primary-global: var(--grey-900);
+  --ynfw-color-icon-inverse: var(--light);
+  --ynfw-color-icon-warning-inverse: var(--warning-light);
+  --ynfw-color-icon-warning: var(--warning);
+  --ynfw-color-text-warning-inverse: var(--warning-light);
+  --ynfw-color-text-warning: var(--warning);
+  --ynfw-color-border-success: var(--success);
+  --ynfw-color-icon-success-inverse: var(--success-light);
+  --ynfw-color-icon-success: var(--success);
+  --ynfw-color-text-success-inverse: var(--success-light);
+  --ynfw-color-text-success: var(--success);
+  --ynfw-color-border-information: var(--info);
+  --ynfw-color-icon-information-inverse: var(--info-light);
+  --ynfw-color-icon-information: var(--info);
+  --ynfw-color-text-information-inverse: var(--info-light);
+  --ynfw-color-text-information: var(--info);
+  --ynfw-color-text-inverse-global: var(--light);
+  --ynfw-color-dark-pressed: var(--grey-700);
+  --ynfw-color-border-tabs-cardmode: var(--grey-300);
+  --ynfw-color-border-light: var(--grey-100);
+  --ynfw-color-icon-rate-selected: var(--brand-500);
+  --ynfw-color-border-pagination-arrow-default: var(--grey-400);
+  --ynfw-color-border-disabled: var(--grey-200);
+  --ynfw-color-bg-pagination-arrow-selected: var(--grey-100);
+  --ynfw-color-bg-pagination-arrow-hover: var(--grey-100);
+  --ynfw-color-bg-pagination-arrow-default: var(--tran);
+  --ynfw-color-text-pagination-selected: var(--light);
+  --ynfw-color-bg-calendar-cell-selected: var(--brand-100);
+  --ynfw-color-bg-calendar-cell-hover: var(--brand-100);
+  --ynfw-color-border-focused: var(--link-700);
+  --ynfw-color-text-btn-pressed: var(--grey-700);
+  --ynfw-color-text-btn-disabled: var(--grey-400);
+  --ynfw-color-text-btn-hover: var(--grey-700);
+  --ynfw-color-icon-input-suffix: var(--grey-400);
+  --ynfw-color-border-default: var(--grey-300);
+  --ynfw-color-text-disabled: var(--grey-400);
+  --ynfw-color-text-disabled-global: var(--grey-400);
+  --ynfw-color-bg-global-disabled: var(--grey-50);
+  --ynfw-color-bg-global-default: var(--light);
+  --ynfw-color-bg-radio: var(--light);
+  --ynfw-color-bg-pagination-selected: var(--grey-400);
+  --ynfw-color-bg-header-table: var(--grey-100);
+  --ynfw-color-bg-secondary-pressed: var(--grey-200);
+  --ynfw-color-bg-secondary-hover: var(--grey-200);
+  --ynfw-color-bg-secondary: var(--grey-100);
+  --ynfw-color-icon-tertiary: var(--grey-300);
+  --ynfw-color-text-tertiary-global: var(--grey-500);
+  --ynfw-color-bg-input-required: var(--reqire);
+  --ynfw-color-text-brand-global: var(--ynfw-color-primary);
+  --ynfw-border-style-divider-cascader: var(--ynfw-border-style-global);
+  --ynfw-border-width-divider-cascader: var(--ynfw-border-width-global);
+  --ynfw-border-radius-fade-tabs-selected: var(--ynfw-border-radius-big-global);
+  --ynfw-border-radius-tabs: var(--ynfw-border-radius-big-global);
+  --ynfw-border-width-table-click: var(--border-2);
+  --ynfw-border-width-top-table: var(--ynfw-border-width-table);
+  --ynfw-border-width-table: var(--ynfw-border-width-global);
+  --ynfw-border-radius-input: var(--ynfw-border-radius-global);
+  --ynfw-border-radius-btn: var(--ynfw-border-radius-global);
+  --ynfw-border-radius-nav: var(--ynfw-border-radius-full-global);
+  --ynfw-border-width-line-timeline: var(--ynfw-border-width-line-nav);
+  --ynfw-border-width-line-anchor: var(--ynfw-border-width-line-nav);
+  --ynfw-border-width-anchor-focus: var(--ynfw-border-width-line-nav);
+  --ynfw-border-width-line-nav: var(--border-2);
+  --ynfw-border-radius-full-global: var(--radius-full);
+  --ynfw-border-width-line-dot-steps: var(--ynfw-border-width-line-nav);
+  --ynfw-border-width-item-timeline: var(--border-2);
+  --ynfw-border-radius-item-arrow-steps: var(--ynfw-border-radius-full-global);
+  --ynfw-border-width-line-default-steps: var(--ynfw-border-width-global);
+  --ynfw-border-width-line-number-steps: var(--ynfw-border-width-global);
+  --ynfw-border-radius-anchor-focus: var(--ynfw-border-radius-nav);
+  --ynfw-border-radius-line-anchor: var(--ynfw-border-radius-nav);
+  --ynfw-border-radius-pagenumber-nointerval-pagination: var(--radius-none);
+  --ynfw-border-width-switch-pressed: var(--border-2);
+  --ynfw-border-radius-line-progress: var(--ynfw-border-radius-full-global);
+  --ynfw-border-width-item-number-steps-finished: var(
+    --ynfw-border-width-global
+  );
+  --ynfw-border-radius-pagenumber-pagination: var(--ynfw-border-radius-global);
+  --ynfw-border-radius-item-number-steps-finished: var(
+    --ynfw-border-radius-nav
+  );
+  --ynfw-border-style-line-timeline: var(--ynfw-border-style-line-nav-finished);
+  --ynfw-border-style-item-number-steps-finished: var(
+    --ynfw-border-style-global
+  );
+  --ynfw-border-style-line-nav-waited: var(--border-dotted);
+  --ynfw-border-style-badge: var(--border-solid);
+  --ynfw-border-radius-switch: var(--ynfw-border-radius-full-global);
+  --ynfw-border-style-line-dot-steps: var(
+    --ynfw-border-style-line-nav-finished
+  );
+  --ynfw-border-width-item-menu-selected: var(--border-4);
+  --ynfw-border-width-input-pagination: var(--ynfw-border-width-global);
+  --ynfw-border-radius-breadcrumb: var(--ynfw-border-radius-global);
+  --ynfw-border-width-divider-list-collapse: var(--ynfw-border-width-global);
+  --ynfw-border-radius-menu: var(--ynfw-border-radius-global);
+  --ynfw-border-style-divider-list-collapse: var(--border-dotted);
+  --ynfw-border-style-line-default-steps-waited: var(
+    --ynfw-border-style-line-nav-waited
+  );
+  --ynfw-border-style-line-default-steps-finished: var(
+    --ynfw-border-style-line-nav-finished
+  );
+  --ynfw-border-width-handle-slider: var(--border-2);
+  --ynfw-border-style-line-number-steps: var(
+    --ynfw-border-style-line-nav-finished
+  );
+  --ynfw-border-style-line-nav-finished: var(--ynfw-border-style-global);
+  --ynfw-border-width-menu: var(--ynfw-border-width-global);
+  --ynfw-border-radius-badge: var(--ynfw-border-radius-full-global);
+  --ynfw-border-width-badge: var(--border-0);
+  --ynfw-border-width-underline-horizontal-menu: var(
+    --ynfw-border-width-global
+  );
+  --ynfw-border-radius-handle-slider: var(--ynfw-border-radius-full-global);
+  --ynfw-border-radius-line-timeline: var(--ynfw-border-radius-nav);
+  --ynfw-border-style-line-crosswise-anchor: var(
+    --ynfw-border-style-line-nav-waited
+  );
+  --ynfw-border-style-line-anchor: var(--ynfw-border-style-line-nav-finished);
+  --ynfw-border-radius-item-timeline: var(--ynfw-border-radius-nav);
+  --ynfw-border-radius-presuppose-datepicker: var(--radius-full);
+  --ynfw-border-width-transfer: var(--ynfw-border-width-global);
+  --ynfw-border-width-button-radio: var(--ynfw-border-width-sideline-btn);
+  --ynfw-border-style-backtop: var(--ynfw-border-style-global);
+  --ynfw-border-radius-bg-icon-transfer: var(--ynfw-border-radius-global);
+  --ynfw-border-radius-checkbox: var(--radius-s);
+  --ynfw-border-width-down-line-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-radius-backtop: var(--ynfw-border-radius-global);
+  --ynfw-border-width-backtop: var(--ynfw-border-width-global);
+  --ynfw-border-width-trapezoid-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-radius-button-radio: var(--ynfw-border-radius-btn);
+  --ynfw-border-radius-transfer: var(--ynfw-border-radius-global);
+  --ynfw-border-width-down-trangle-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-style-trapezoid-tabs: var(--ynfw-border-style-tabs);
+  --ynfw-border-width-down-fill-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-radius-cell-datepicker: var(--ynfw-border-radius-cell-picker);
+  --ynfw-border-width-leftright-card-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-width-rightborder-panel-timepicker: var(--border-0);
+  --ynfw-border-radius-fade-tabs: var(--ynfw-border-radius-tabs);
+  --ynfw-border-radius-fill-tabs: var(--ynfw-border-radius-tabs);
+  --ynfw-border-radius-message: var(--ynfw-border-radius-feedback);
+  --ynfw-border-style-message: var(--ynfw-border-style-feedback);
+  --ynfw-border-radius-cell-timepicker: var(--ynfw-border-radius-cell-picker);
+  --ynfw-border-width-down-card-tabs: var(--ynfw-border-width-tabs);
+  --ynfw-border-radius-alert: var(--radius-none);
+  --ynfw-border-width-message: var(--ynfw-border-width-feedback);
+  --ynfw-border-radius-item-primary-tabs: var(--radius-none);
+  --ynfw-border-width-top-card-tabs-selected: var(--ynfw-border-width-tabs);
+  --ynfw-border-style-fill-tabs: var(--ynfw-border-style-tabs);
+  --ynfw-border-style-line-tabs: var(--ynfw-border-style-tabs);
+  --ynfw-border-radius-tooltip: var(--ynfw-border-radius-feedback);
+  --ynfw-border-width-drawer: var(--ynfw-border-width-feedback);
+  --ynfw-border-width-item-list: var(--ynfw-border-width-container);
+  --ynfw-border-style-modal: var(--ynfw-border-style-feedback);
+  --ynfw-border-width-modal: var(--ynfw-border-width-feedback);
+  --ynfw-border-radius-notification: var(--ynfw-border-radius-feedback);
+  --ynfw-border-style-drawer: var(--ynfw-border-style-feedback);
+  --ynfw-border-radius-drawer: var(--ynfw-border-radius-feedback);
+  --ynfw-border-radius-modal: var(--ynfw-border-radius-feedback);
+  --ynfw-border-radius-popover: var(--ynfw-border-radius-feedback);
+  --ynfw-border-radius-popconfirm: var(--ynfw-border-radius-feedback);
+  --ynfw-border-style-item-list: var(--ynfw-border-style-container);
+  --ynfw-border-radius-collapse: var(--ynfw-border-radius-container);
+  --ynfw-border-width-collapse: var(--ynfw-border-width-container);
+  --ynfw-border-style-collapse: var(--ynfw-border-style-container);
+  --ynfw-border-style-list: var(--ynfw-border-style-container);
+  --ynfw-border-radius-card: var(--ynfw-border-radius-container);
+  --ynfw-border-radius-list: var(--ynfw-border-radius-container);
+  --ynfw-border-width-list: var(--ynfw-border-width-container);
+  --ynfw-border-width-header-card: var(--ynfw-border-width-container);
+  --ynfw-border-style-header-card: var(--ynfw-border-style-container);
+  --ynfw-border-style-richtext: var(--ynfw-border-style-input);
+  --ynfw-border-width-richtext: var(--ynfw-border-width-input);
+  --ynfw-border-width-sideline-btn: var(--ynfw-border-width-global);
+  --ynfw-border-style-sideline-btn: var(--ynfw-border-style-global);
+  --ynfw-border-radius-cell-picker: var(--ynfw-border-radius-global);
+  --ynfw-border-width-tabs: var(--ynfw-border-width-global);
+  --ynfw-border-style-card: var(--ynfw-border-style-container);
+  --ynfw-border-style-tabs: var(--ynfw-border-style-global);
+  --ynfw-border-width-card: var(--ynfw-border-width-container);
+  --ynfw-border-radius-feedback: var(--ynfw-border-radius-big-global);
+  --ynfw-border-width-container: var(--ynfw-border-width-global);
+  --ynfw-border-style-container: var(--ynfw-border-style-global);
+  --ynfw-border-width-feedback: var(--ynfw-border-width-global);
+  --ynfw-border-radius-container: var(--ynfw-border-radius-global);
+  --ynfw-border-style-feedback: var(--ynfw-border-style-global);
+  --ynfw-border-style-panel-picker: var(--ynfw-border-style-global);
+  --ynfw-border-radius-panel-picker: var(--ynfw-border-radius-global);
+  --ynfw-border-width-panel-picker: var(--ynfw-border-width-global);
+  --ynfw-border-radius-option-panel: var(--ynfw-border-radius-global);
+  --ynfw-border-width-option-panel: var(--ynfw-border-width-global);
+  --ynfw-border-width-global: var(--border-1);
+  --ynfw-border-radius-small-global: var(--radius-s);
+  --ynfw-border-radius-global: var(--radius-sm);
+  --ynfw-border-radius-big-global: var(--radius-m);
+  --ynfw-border-style-global: var(--border-solid);
+  --ynfw-border-width-input: var(--border-1);
+  --ynfw-border-style-input: var(--border-solid);
+  --ynfw-border-width-bottom-row-table: var(--border-1);
+  --ynfw-border-style-bottom-row-table: var(--border-solid);
+  --ynfw-border-width-cell-table: var(--border-1);
+  --ynfw-border-style-cell-table: var(--border-solid);
+  --ynfw-font-size-fill-line-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-size-icon-cascader: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-fill-line-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-weight-fill-line-tabs-selected: var(
+    --ynfw-font-weight-tabs-selected
+  );
+  --ynfw-font-size-item-arrow-steps: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-message: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-message: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-total-table: var(--ynfw-font-weight-table);
+  --ynfw-font-weight-header-table: var(--ynfw-font-weight-table);
+  --ynfw-font-weight-bold-global: var(--font-semibold);
+  --ynfw-font-weight-value-form: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-value-form: var(--ynfw-font-size-input);
+  --ynfw-font-weight-label-form: var(--ynfw-font-weight-input);
+  --ynfw-font-weight-semantic-tag: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-label-form: var(--ynfw-font-size-input);
+  --ynfw-font-size-content-card: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-week-calendar: var(--ynfw-font-weight-picker);
+  --ynfw-font-size-upload: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-header-calendar: var(--ynfw-font-weight-picker);
+  --ynfw-font-size-icon-tag: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-header-calendar: var(--ynfw-font-size-picker);
+  --ynfw-font-weight-content-calendar: var(--ynfw-font-weight-picker);
+  --ynfw-font-weight-upload: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-avatar: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-week-calendar: var(--ynfw-font-size-picker);
+  --ynfw-font-size-title-steps: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-hint-upload: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-content-card: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-hint-upload: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-content-calendar: var(--ynfw-font-size-picker);
+  --ynfw-font-size-total-table: var(--ynfw-font-size-table);
+  --ynfw-font-size-icon-header-table: var(--ynfw-font-size-table);
+  --ynfw-font-size-cell-table: var(--ynfw-font-size-table);
+  --ynfw-font-size-header-table: var(--ynfw-font-size-table);
+  --ynfw-font-weight-table: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-table: var(--ynfw-font-size-text-small-global);
+  --ynfw-font-size-title-card-collapse: var(--ynfw-font-size-title-global);
+  --ynfw-font-size-content-card-collapse: var(
+    --ynfw-font-size-text-small-global
+  );
+  --ynfw-font-size-radio: var(--ynfw-font-size-text-small-global);
+  --ynfw-font-size-checkbox: var(--ynfw-font-size-text-small-global);
+  --ynfw-font-size-icon-tree: var(--ynfw-font-size-icon);
+  --ynfw-font-size-icon-input: var(--ynfw-font-size-icon);
+  --ynfw-font-size-number-steps: var(--ynfw-font-size-title-global);
+  --ynfw-font-size-item-rate: var(--ynfw-font-size-title-global);
+  --ynfw-font-size-arrow-item-menu: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-icon-title-card-collapse: var(--ynfw-font-size-title-global);
+  --ynfw-font-weight-icon-default-steps: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-icon-more-nav: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-content-card-collapse: var(
+    --ynfw-font-weight-default-global
+  );
+  --ynfw-font-size-icon-steps: var(--ynfw-font-size-icon-more-nav);
+  --ynfw-font-weight-title-card-collapse: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-content-list-collapse: var(
+    --ynfw-font-size-text-small-global
+  );
+  --ynfw-font-weight-title-list-collapse: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-weight-content-list-collapse: var(
+    --ynfw-font-weight-default-global
+  );
+  --ynfw-font-size-title-list-collapse: var(--ynfw-font-size-text-small-global);
+  --ynfw-font-weight-content-list: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-backtop: var(--text-2xl);
+  --ynfw-font-weight-title-list: var(--ynfw-font-weight-title-container);
+  --ynfw-font-size-content-list: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-title-list: var(--ynfw-font-size-title-container);
+  --ynfw-font-size-icon-transfer: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-panel-datepicker: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-icon-info-alert: var(--ynfw-font-size-icon-info-feedback);
+  --ynfw-font-size-icon-info-message: var(--ynfw-font-size-icon-info-feedback);
+  --ynfw-font-size-icon-info-popconfirm: var(
+    --ynfw-font-size-icon-info-feedback
+  );
+  --ynfw-font-size-feedback: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-icon-info-modal: var(--ynfw-font-size-icon-info-feedback);
+  --ynfw-font-weight-anchor-selected: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-richtext: var(--ynfw-font-size-text-small-global);
+  --ynfw-font-size-icon-info-feedback: var(--text-lg);
+  --ynfw-font-size-textbtn-footer-picker: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-horizoncal-anchor: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-icon: var(--text-md);
+  --ynfw-font-size-content-modal: var(--ynfw-font-size-content-feedback);
+  --ynfw-font-size-header-datepicker: var(--ynfw-font-size-picker);
+  --ynfw-font-weight-title-feedback: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-time-timeline: var(--ynfw-font-size-nav);
+  --ynfw-font-size-fade-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-weight-steps: var(--ynfw-font-weight-nav);
+  --ynfw-font-size-content-popconfirm: var(--ynfw-font-size-content-feedback);
+  --ynfw-font-size-breadcrumb: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-line-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-size-content-notification: var(--ynfw-font-size-content-feedback);
+  --ynfw-font-size-group-select: var(--ynfw-font-size-option-panel);
+  --ynfw-font-weight-group-select: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-size-cascader: var(--ynfw-font-size-option-panel);
+  --ynfw-font-size-tooltip: var(--ynfw-font-size-content-feedback);
+  --ynfw-font-size-content-transfer: var(--ynfw-font-size-option-panel);
+  --ynfw-font-size-nav: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-fade-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-weight-fill-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-size-trapezoid-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-weight-tree: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-weight-select: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-size-editablecard-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-weight-content-popover: var(--ynfw-font-weight-content-feedback);
+  --ynfw-font-weight-editablecard-tabs-selected: var(
+    --ynfw-font-weight-tabs-selected
+  );
+  --ynfw-font-weight-content-popconfirm: var(
+    --ynfw-font-weight-content-feedback
+  );
+  --ynfw-font-weight-tooltip: var(--ynfw-font-weight-content-feedback);
+  --ynfw-font-weight-time-timeline: var(--ynfw-font-weight-nav);
+  --ynfw-font-size-trangle-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-weight-anchor: var(--ynfw-font-weight-nav);
+  --ynfw-font-weight-nav: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-tertiary-select: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-weight-radio: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-weight-content-datepicker: var(--ynfw-font-weight-picker);
+  --ynfw-font-weight-content-transfer: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-weight-timepicker: var(--ynfw-font-weight-picker);
+  --ynfw-font-size-content-datepicker: var(--ynfw-font-size-picker);
+  --ynfw-font-weight-trapezoid-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-weight-week-datepicker: var(--ynfw-font-weight-picker);
+  --ynfw-font-weight-line-tabs-selected: var(--ynfw-font-weight-tabs-selected);
+  --ynfw-font-size-week-datepicker: var(--ynfw-font-size-picker);
+  --ynfw-font-size-switch: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-title-card: var(--ynfw-font-weight-title-container);
+  --ynfw-font-weight-alert: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-content-collapse: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-header-transfer: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-fill-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-size-steps: var(--ynfw-font-size-nav);
+  --ynfw-font-weight-title-collapse: var(--ynfw-font-weight-title-container);
+  --ynfw-font-weight-menu: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-progress: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-empty: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-card-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-size-content-timeline: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-header-datepicker: var(--ynfw-font-weight-picker);
+  --ynfw-font-weight-trangle-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-weight-steps-selected: var(--ynfw-font-weight-tabs-selected);
+  --ynfw-font-size-title-card: var(--ynfw-font-size-title-container);
+  --ynfw-font-weight-card-tabs-selected: var(--ynfw-font-weight-tabs-selected);
+  --ynfw-font-weight-line-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-size-anchor: var(--ynfw-font-size-nav);
+  --ynfw-font-size-tertiary-select: var(--ynfw-font-size-option-panel);
+  --ynfw-font-weight-content-collapse: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-title-drawer: var(--ynfw-font-size-title-feedback);
+  --ynfw-font-size-content-popover: var(--ynfw-font-size-content-feedback);
+  --ynfw-font-size-title-popover: var(--ynfw-font-size-title-feedback);
+  --ynfw-font-weight-badge: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-switch: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-title-popover: var(--ynfw-font-weight-title-feedback);
+  --ynfw-font-weight-title-drawer: var(--ynfw-font-weight-title-feedback);
+  --ynfw-font-size-header-transfer: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-breadcrumb: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-slider: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-title-timeline: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-tag: var(--ynfw-font-weight-text);
+  --ynfw-font-weight-progress: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-title-notification: var(--ynfw-font-size-title-feedback);
+  --ynfw-font-size-menu: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-tag: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-content-modal: var(--ynfw-font-weight-content-feedback);
+  --ynfw-font-size-spin: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-title-modal: var(--ynfw-font-size-title-feedback);
+  --ynfw-font-weight-checkbox: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-weight-radiobutton: var(--ynfw-font-weight-btn);
+  --ynfw-font-weight-editablecard-tabs: var(--ynfw-font-weight-tabs);
+  --ynfw-font-weight-fill-tabs-selected: var(--ynfw-font-weight-tabs-selected);
+  --ynfw-font-weight-pagination: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-alert: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-spin: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-title-popconfirm: var(--ynfw-font-weight-title-feedback);
+  --ynfw-font-size-timepicker: var(--ynfw-font-size-picker);
+  --ynfw-font-size-title-collapse: var(--ynfw-font-size-title-container);
+  --ynfw-font-size-rate: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-title-popconfirm: var(--ynfw-font-size-title-feedback);
+  --ynfw-font-weight-title-timeline: var(--ynfw-font-weight-title-container);
+  --ynfw-font-weight-content-timeline: var(--ynfw-font-weight-nav);
+  --ynfw-font-weight-content-notification: var(
+    --ynfw-font-weight-content-feedback
+  );
+  --ynfw-font-weight-title-modal: var(--ynfw-font-weight-title-feedback);
+  --ynfw-font-weight-trapezoid-tabs-selected: var(
+    --ynfw-font-weight-tabs-selected
+  );
+  --ynfw-font-weight-fade-tabs-selected: var(--ynfw-font-weight-tabs-selected);
+  --ynfw-font-weight-trangle-tabs-selected: var(
+    --ynfw-font-weight-tabs-selected
+  );
+  --ynfw-font-weight-rate: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-pagination: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-title-notification: var(--ynfw-font-weight-title-feedback);
+  --ynfw-font-weight-slider-selected: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-size-card-tabs: var(--ynfw-font-size-tabs);
+  --ynfw-font-size-empty: var(--ynfw-font-size-text-global);
+  --ynfw-font-weight-slider: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-cascader: var(--ynfw-font-weight-option-panel);
+  --ynfw-font-size-text-small-global: var(--text-sm);
+  --ynfw-font-size-tertiary-global: var(--text-xs);
+  --ynfw-font-size-text-global: var(--text-base);
+  --ynfw-font-size-title-global: var(--text-md);
+  --ynfw-font-size-content-feedback: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-option-panel: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-size-title-feedback: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-tabs: var(--ynfw-font-size-tertiary-global);
+  --ynfw-font-weight-default-global: var(--font-normal);
+  --ynfw-font-weight-option-panel: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-content-feedback: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-tabs-selected: var(--ynfw-font-weight-bold-global);
+  --ynfw-font-weight-picker: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-title-container: var(--ynfw-font-weight-default-global);
+  --ynfw-font-weight-tabs: var(--ynfw-font-weight-default-global);
+  --ynfw-font-size-title-container: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-picker: var(--ynfw-font-size-text-global);
+  --ynfw-font-size-select: var(--ynfw-font-size-option-panel);
+  --ynfw-font-size-radiobutton: var(--ynfw-font-size-btn);
+  --ynfw-font-size-icon-tabs: var(--text-xs);
+  --ynfw-font-size-tree: var(--text-xs);
+  --ynfw-font-weight-input: var(--font-normal);
+  --ynfw-font-line_height-input: var(--lh-5);
+  --ynfw-font-weight-cell-table: var(--font-normal);
+  --ynfw-font-size-btn: var(--text-xs);
+  --ynfw-font-weight-btn: var(--font-normal);
+  --ynfw-font-size-textbtn: var(--text-xs);
+  --ynfw-font-weight-textbtn: var(--font-normal);
+  --ynfw-font-weight-text: var(--font-normal);
+  --ynfw-font-line_height-text: var(--lh-5);
+  --ynfw-font-size-text: var(--text-sm);
+  --ynfw-font-size-input: var(--text-sm);
+  --ynfw-size-height-md-button-checkbox: var(--ynfw-size-height-btn);
+  --ynfw-size-height-xs-button-checkbox: var(--h-5);
+  --ynfw-size-height-lg-button-checkbox: var(--h-8);
+  --ynfw-size-height-lg-button-radio: var(--h-8);
+  --ynfw-size-height-xs-button-radio: var(--h-5);
+  --ynfw-size-height-md-button-radio: var(--ynfw-size-height-btn);
+  --ynfw-size-width-handle-switch: var(--w-3);
+  --ynfw-size-height-handle-switch: var(--h-3);
+  --ynfw-size-height-switch: var(--h-4);
+  --ynfw-size-height-item-arrow-steps: var(--h-5);
+  --ynfw-size-height-arrow-steps: var(--h-t35);
+  --ynfw-size-height-anchor-selected: var(--h-2);
+  --ynfw-size-height-item-number-steps: var(--h-8);
+  --ynfw-size-width-anchor-selected: var(--w-2);
+  --ynfw-size-height-item-timeline: var(--h-3);
+  --ynfw-size-height-item-dot-steps-focus: var(--h-3);
+  --ynfw-size-height-item-dot-steps: var(--h-2);
+  --ynfw-size-width-switch: var(--w-8);
+  --ynfw-size-width-spin: var(--w-8);
+  --ynfw-size-width-item-dot-steps-focus: var(--w-3);
+  --ynfw-size-width-item-dot-steps: var(--w-2);
+  --ynfw-size-width-item-arrow-steps: var(--w-5);
+  --ynfw-size-width-item-timeline: var(--w-3);
+  --ynfw-size-width-item-number-steps: var(--w-8);
+  --ynfw-size-width-handle-slider: var(--w-t14);
+  --ynfw-size-height-badge: var(--h-4);
+  --ynfw-size-height-breadcrumb: var(--h-t35);
+  --ynfw-size-height-title-card-collapse: var(--h-8);
+  --ynfw-size-height-handle-slider: var(--h-t14);
+  --ynfw-size-height-item-menu: var(--h-10);
+  --ynfw-size-height-title-list-collapse: var(--h-8);
+  --ynfw-size-height-spin: var(--h-8);
+  --ynfw-size-height-line-slider: var(--h-1);
+  --ynfw-size-height-line-progress: var(--h-2);
+  --ynfw-size-width-pagenumber-pagination: var(--w-5);
+  --ynfw-size-height-pagenumber-pagination: var(--h-5);
+  --ynfw-size-width-input-pagination: var(--w-16);
+  --ynfw-size-width-backtop: var(--w-12);
+  --ynfw-size-height-backtop: var(--h-12);
+  --ynfw-size-width-cascader: var(--w-32);
+  --ynfw-size-height-line-tabs: var(--h-t28);
+  --ynfw-size-height-primary-tabs: var(--h-t35);
+  --ynfw-size-height-item-primary-tabs: var(--h-t28);
+  --ynfw-size-height-bg-option-tree: var(--h-t28);
+  --ynfw-size-height-icon-transfer: var(--h-8);
+  --ynfw-size-height-trapezoid-tabs: var(--h-t35);
+  --ynfw-size-height-item-fade-tabs: var(--h-t29);
+  --ynfw-size-height-fill-tabs: var(--h-t35);
+  --ynfw-size-width-icon-transfer: var(--w-6);
+  --ynfw-size-width-cell-datepicker: var(--ynfw-size-width-cell-picker);
+  --ynfw-size-width-panel-timepicker: var(--w-16);
+  --ynfw-size-height-cell-timepicker: var(--ynfw-size-height-cell-picker);
+  --ynfw-size-height-week-panel-datepicker: var(--h-t30);
+  --ynfw-size-height-header-panel-datepicker: var(--h-10);
+  --ynfw-size-height-card-tabs: var(--h-t35);
+  --ynfw-size-height-fade-tabs: var(--h-t35);
+  --ynfw-size-width-cell-timepicker: var(--w-12);
+  --ynfw-size-height-cell-datepicker: var(--ynfw-size-height-cell-picker);
+  --ynfw-size-height-presuppose-datepicker: var(--h-t26);
+  --ynfw-size-width-bg-scrollbar: var(--w-t14);
+  --ynfw-size-height-header-collapse: var(--h-10);
+  --ynfw-size-height-tabs: var(--h-t35);
+  --ynfw-size-height-btn-picker: var(--h-t26);
+  --ynfw-size-width-scroll-scrollbar: var(--w-2);
+  --ynfw-size-height-bg-option: var(--h-8);
+  --ynfw-size-width-cell-picker: var(--w-6);
+  --ynfw-size-height-cell-picker: var(--h-6);
+  --ynfw-size-width-scroll-scrollbar-hover: var(--w-3);
+  --ynfw-size-height-footer-picker: var(--h-10);
+  --ynfw-size-width-col-table: var(--w-tb150);
+  --ynfw-size-height-btn-row-table: var(--h-t22);
+  --ynfw-size-height-totalrow-table: var(--h-t26);
+  --ynfw-size-height-btn: var(--h-t28);
+  --ynfw-size-height-workbench-header: var(--h-10);
+  --ynfw-size-height-input: var(--h-t28);
+  --ynfw-size-height-calendar-cell: var(--h-6);
+  --ynfw-size-height-table: var(--h-10);
+  --ynfw-size-height-header-table: var(--h-t30);
+  --ynfw-size-height-row-table: var(--h-t35);
+  --ynfw-font-family-tnf: var(--fm);
+  --ynfw-box-shadow-tooltip: var(--shadow-basic);
+  --ynfw-box-shadow-popover: var(--shadow-basic);
+  --ynfw-box-shadow-popconfirm: var(--shadow-basic);
+  --ynfw-box-shadow-handle-switch: var(--shadow-none);
+  --ynfw-box-shadow-modal: var(--shadow-md);
+  --ynfw-box-shadow-notification: var(--shadow-md);
+  --ynfw-box-shadow-message: var(--shadow-md);
+  --ynfw-box-shadow-feedback: var(--shadow-md);
+  --ynfw-box-shadow-backtop: var(--shadow-md);
+  --ynfw-box-shadow-drawer: var(--shadow-md);
+  --ynfw-box-shadow-panel-picker: var(--shadow-md);
+  --ynfw-box-shadow-alert: var(--shadow-md);
+  --ynfw-box-shadow-option-panel: var(--shadow-md);
+  --wui-primary-color: var(--ynfw-color-primary);
+  --wui-primary-color-hover: var(--ynfw-color-primary-hover);
+  --workbench-header-bgc: var(--ynfw-color-bg-workbench-header);
+  --workbench-header-mb: var(--ynfw-color-bg-navicon-workbench-header);
+  --workbench-header-hmb: var(--ynfw-color-bg-navicon-workbench-header-hover);
+  --workbench-header-s: var(--ynfw-color-bg-search-workbench-header);
+  --workbench-nav-bgc: var(--ynfw-color-bg-tabbar-workbench);
+  --workbench-nav-c: var(--ynfw-color-text-tab-workbench);
+  --workbench-nav-hc: var(--ynfw-color-text-tab-workbench-selected);
+  --workbench-nav-bc: var(--ynfw-color-bg-tab-workbench);
+  --workbench-nav-hbc: var(--ynfw-color-bg-tab-workbench-selected);
+  --workbench-nav-bd: var(--ynfw-color-border-tabbottom-workbench);
+  --workbench-nav-hbd: var(--ynfw-color-border-tabbottom-workbench-selected);
+  --workbench-theme-primary: var(--ynfw-color-primary);
+  --workbench-theme-primaryHover: var(--ynfw-color-primary-hover);
+  --workbench-theme-primaryActive: var(--ynfw-color-primary-pressed);
+}
